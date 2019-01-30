@@ -1,5 +1,5 @@
 {
-  "name": "dotfiles",
+  "name": "@xwtec/dotfiles",
   "version": "0.0.0",
   "description": "xwtec project config files",
   "main": "index.js",
