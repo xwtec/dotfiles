@@ -1,6 +1,8 @@
-# editorconfig
+# prettier
 
 ### 推荐指数
+
+⭐⭐⭐⭐⭐ 必须安装
 
 ### 链接
 
