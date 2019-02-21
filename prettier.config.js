@@ -4,6 +4,9 @@
 // options https://prettier.io/docs/en/options.html
 // Configuration File https://prettier.io/docs/en/configuration.html
 
+// options https://prettier.io/docs/en/options.html
+// Configuration File https://prettier.io/docs/en/configuration.html
+
 module.exports = {
   // options for all files
   trailingComma: 'es5',
@@ -44,6 +47,7 @@ module.exports = {
       files: '*.less',
       options: {
         parser: 'less',
+        singleQuote: false,
       },
     },
     {
@@ -80,12 +84,14 @@ module.exports = {
       files: '*.{md,markdown}',
       options: {
         parser: 'markdown',
+        singleQuote: false,
       },
     },
     {
       files: '*.{yaml,yml}',
       options: {
         parser: 'yaml',
+        singleQuote: false,
       },
     },
     {

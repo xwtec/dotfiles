@@ -4,7 +4,7 @@
 module.exports = {
   // options for all files
   trailingComma: 'es5',
-  semi: true,
+  semi: false,
   singleQuote: true,
   bracketSpacing: false,
   htmlWhitespaceSensitivity: 'ignore',
@@ -41,6 +41,7 @@ module.exports = {
       files: '*.less',
       options: {
         parser: 'less',
+        singleQuote: false,
       },
     },
     {
@@ -77,12 +78,14 @@ module.exports = {
       files: '*.{md,markdown}',
       options: {
         parser: 'markdown',
+        singleQuote: false,
       },
     },
     {
       files: '*.{yaml,yml}',
       options: {
         parser: 'yaml',
+        singleQuote: false,
       },
     },
     {
@@ -92,4 +95,4 @@ module.exports = {
       },
     },
   ],
-};
+}
