@@ -24,13 +24,13 @@ module.exports = {
       },
     },
     {
-      files: '.ts',
+      files: '*.ts',
       options: {
         parser: 'typescript',
       },
     },
     {
-      files: '*.{css,less,scss}',
+      files: '*.css',
       options: {
         parser: 'css',
         singleQuote: false,
