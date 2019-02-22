@@ -5,6 +5,15 @@
  * see https://github.com/xwtec/dotfiles/prettier
  */
 
+/*!
+ * config file for prettier
+ * project https://github.com/xwtec/dotfiles
+ * primary link https://raw.githubusercontent.com/xwtec/dotfiles/master/prettier/prettier.config.js
+ *
+ * options https://prettier.io/docs/en/options.html
+ *
+ */
+
 module.exports = {
   // options for all files
   trailingComma: 'es5',
