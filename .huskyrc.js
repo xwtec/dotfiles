@@ -1,5 +1,9 @@
-// DON'T USE THIS CONFIG
-// see https://github.com/xwtec/dotfiles/husky
+/*!
+ * this file for internal use only
+ *
+ * if you are looking for config file for husky
+ * see https://github.com/xwtec/dotfiles/husky
+ */
 
 module.exports = {
   hooks: {

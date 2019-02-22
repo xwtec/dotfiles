@@ -1,11 +1,9 @@
-// DON'T USE THIS CONFIG
-// see https://github.com/xwtec/dotfiles/prettier
-
-// options https://prettier.io/docs/en/options.html
-// Configuration File https://prettier.io/docs/en/configuration.html
-
-// options https://prettier.io/docs/en/options.html
-// Configuration File https://prettier.io/docs/en/configuration.html
+/*!
+ * this file for internal use only
+ *
+ * if you are looking for config file for prettier
+ * see https://github.com/xwtec/dotfiles/prettier
+ */
 
 module.exports = {
   // options for all files
