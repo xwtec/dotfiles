@@ -28,10 +28,6 @@ trim_trailing_whitespace = true
 
 # overrides
 
-# markdown overrides
-[*.{md,markdown}]
-trim_trailing_whitespace = false
-
 # python overrides
 [*.py]
 indent_size = 4
