@@ -18,13 +18,13 @@ module.exports = {
   // overrides
   overrides: [
     {
-      files: '*.{js,mjs}',
+      files: '*.{js,jsx,mjs}',
       options: {
         parser: 'babel',
       },
     },
     {
-      files: '*.ts',
+      files: '*.{ts,tsx}',
       options: {
         parser: 'typescript',
       },
@@ -48,12 +48,6 @@ module.exports = {
       options: {
         parser: 'less',
         singleQuote: false,
-      },
-    },
-    {
-      files: '*.css',
-      options: {
-        parser: 'css',
       },
     },
     {
@@ -85,6 +79,12 @@ module.exports = {
       options: {
         parser: 'markdown',
         singleQuote: false,
+      },
+    },
+    {
+      files: '*.mdx',
+      options: {
+        parser: 'mdx',
       },
     },
     {
