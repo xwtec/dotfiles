@@ -12,7 +12,7 @@ module.exports = {
   parserOptions: {},
   extends: [
     // @xwtec/eslint-config https://github.com/xwtec/eslint-config
-    '@xwtec',
+    '@xwtec/eslint-config/legacy',
   ],
   settings: {},
   rules: {},

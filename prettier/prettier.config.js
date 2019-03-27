@@ -9,8 +9,8 @@
 
 module.exports = {
   // options for all files
-  trailingComma: 'es5',
-  semi: false,
+  trailingComma: 'none',
+  semi: true,
   singleQuote: true,
   bracketSpacing: false,
   htmlWhitespaceSensitivity: 'ignore',
@@ -20,86 +20,86 @@ module.exports = {
     {
       files: '*.{js,jsx,mjs}',
       options: {
-        parser: 'babel',
-      },
+        parser: 'babel'
+      }
     },
     {
       files: '*.{ts,tsx}',
       options: {
-        parser: 'typescript',
-      },
+        parser: 'typescript'
+      }
     },
     {
       files: '*.css',
       options: {
         parser: 'css',
-        singleQuote: false,
-      },
+        singleQuote: false
+      }
     },
     {
       files: '*.scss',
       options: {
         parser: 'scss',
-        singleQuote: false,
-      },
+        singleQuote: false
+      }
     },
     {
       files: '*.less',
       options: {
         parser: 'less',
-        singleQuote: false,
-      },
+        singleQuote: false
+      }
     },
     {
       files: '*.vue',
       options: {
-        parser: 'vue',
-      },
+        parser: 'vue'
+      }
     },
     {
       files: '*.{html,htm}',
       options: {
-        parser: 'html',
-      },
+        parser: 'html'
+      }
     },
     {
       files: '*.json',
       options: {
-        parser: 'json',
-      },
+        parser: 'json'
+      }
     },
     {
       files: '*.json5',
       options: {
-        parser: 'json5',
-      },
+        parser: 'json5'
+      }
     },
     {
       // more ext: mdown,mdwn,mkd,mkdn,mkdown
       files: '*.{md,markdown}',
       options: {
         parser: 'markdown',
-        singleQuote: false,
-      },
+        singleQuote: false
+      }
     },
     {
       files: '*.mdx',
       options: {
-        parser: 'mdx',
-      },
+        parser: 'mdx'
+      }
     },
     {
       files: '*.{yaml,yml}',
       options: {
         parser: 'yaml',
-        singleQuote: false,
-      },
+        singleQuote: false
+      }
     },
     {
       files: '*.{gql,graphql}',
       options: {
-        parser: 'graphql',
-      },
-    },
-  ],
-}
+        parser: 'graphql'
+      }
+    }
+  ]
+};
