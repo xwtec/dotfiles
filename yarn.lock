@@ -1838,9 +1838,9 @@ p-locate@^4.1.0:
     p-limit "^2.2.0"
 
 p-map@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.taobao.org/p-map/download/p-map-2.0.0.tgz#be18c5a5adeb8e156460651421aceca56c213a50"
-  integrity sha1-vhjFpa3rjhVkYGUUIazspWwhOlA=
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-2.1.0.tgz#310928feef9c9ecc65b68b17693018a665cea175"
+  integrity sha512-y3b8Kpd8OAN444hxfBbFfj1FY/RjtTd8tzYwhUqNYXx0fXx2iX4maP4Qr6qhIKbQXI02wTLAda4fYUbDagTUFw==
 
 p-memoize@^3.1.0:
   version "3.1.0"
