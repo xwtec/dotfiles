@@ -1890,10 +1890,10 @@ normalize-url@^4.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
   integrity sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ==
 
-np@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/np/-/np-5.2.0.tgz#2b93bacb53724f61ab29e24f956da08b54b6e022"
-  integrity sha512-7M50jxjECG3gT5R8bDxDQV9XsVLYZFQj86jdf7uZB+Bu5z9Gy7R0tCbwBh27Jn6LCLAnyFVnkSA+dwbukNp3Kw==
+np@5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/np/-/np-5.2.1.tgz#037bc41a6702fa20ec002fc24f36ebeaa2b318a2"
+  integrity sha512-KGSFQGHob6FMOWCrBgaqJNu/G9ghA5Rfbt3NXOz2alKzEwC1Xvk/vIem6dbKm3HjyII1WpfI+Xymx51i2gJMhA==
   dependencies:
     "@samverschueren/stream-to-observable" "^0.3.0"
     any-observable "^0.5.0"
