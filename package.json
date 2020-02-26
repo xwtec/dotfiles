@@ -26,7 +26,7 @@
     "cz-conventional-changelog-emoji": "0.1.0",
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
-    "np": "6.1.0",
+    "np": "6.2.0",
     "prettier": "1.19.1"
   },
   "config": {
