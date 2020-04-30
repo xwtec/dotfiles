@@ -3,7 +3,10 @@
   "version": "0.0.2",
   "description": "xwtec project config files",
   "main": "index.js",
-  "keywords": ["xwtec", "config"],
+  "keywords": [
+    "xwtec",
+    "config"
+  ],
   "repository": "xwtec/dotfiles",
   "author": "fisker <lionkay@gmail.com>",
   "license": "MIT",
@@ -15,7 +18,9 @@
   ],
   "scripts": {
     "release": "np --no-yarn --no-cleanup",
-    "prettier": "prettier **/*.{js,json,md} --write"
+    "prettier": "prettier **/*.{js,json,md} --write",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -33,5 +38,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog-emoji"
     }
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.316.0"
   }
 }
