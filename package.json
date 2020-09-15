@@ -21,7 +21,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@commitlint/cli": "8.3.5",
+    "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "9.1.2",
     "cz-conventional-changelog-emoji": "0.1.0",
     "husky": "4.3.0",
